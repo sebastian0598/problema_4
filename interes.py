@@ -1,7 +1,9 @@
-def im_interes(self):
-    self.importe = (self.cantidad*self.interes)/100
-    return self.importe
-
+class caja_ahorro(cuenta):
+    def __init__(self):
+        super().__init__()
+            
+    def mostrar_caja(self):
+        super().imprimir()
     
 def main():
 
